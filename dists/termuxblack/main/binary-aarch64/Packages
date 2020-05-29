@@ -1,0 +1,106 @@
+Package: beef-xss
+Architecture: all
+Version: 0.5.0.0-alpha-pre-0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 29172
+Depends: patchelf, geoip2-database, make, clang, libllvm, termux-elf-cleaner, termux-elf-cleaner-5, findutils, nodejs, ruby, libsqlite, libxslt, libxslt
+Filename: dists/termuxblack/main/binary-aarch64/beef-xss_0.5.0.0-alpha-pre-0_all.deb
+Size: 3908534
+MD5sum: 94b906d275e5901783d10e191e1680bc
+SHA1: 7f6c090ef111d7a43332c758d063baf3c77369b2
+SHA256: 8c00356d9b2ef353e04d9529c793138f646230bd83b02774708f6439b56b2910
+SHA512: cada7ae9dbcbe5f29d0810b665f51aff3534cc8cf456942897fff638cc795972751750b1922e96847183b1ae30e4ba0ed8f4e8d67c6183079785e4d96846012f
+Homepage: http://beefproject.com/
+Description: BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
+
+Package: pdfcrack
+Architecture: aarch64
+Version: 0.19
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 120
+Filename: dists/termuxblack/main/binary-aarch64/pdfcrack_0.19_aarch64.deb
+Size: 22644
+MD5sum: 2791c2103cceefddbded950f70be06fa
+SHA1: 9abcedfe7cfbfc4ec74459cde0ddff744e1adf45
+SHA256: 34cda8e1addcb9c06e638b18434515649a63ca70186a6fc8b6820dd184994730
+SHA512: 4048b3bec6f8ba185ea2ba87b85728378cfe68ae9a545ec5a12c0c6f9f1ff338dbac249c9b3215fb07f02a5f0f7278a42eaed503affe0d4f3c256cb85b1905d7
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+
+Package: termux-elf-cleaner-5
+Architecture: aarch64
+Version: 5
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Filename: dists/termuxblack/main/binary-aarch64/termux-elf-cleaner-5_5_aarch64.deb
+Size: 4026
+MD5sum: 63f41ed294a366bab7e07017450ca666
+SHA1: 9c0015658badee3ab5da2de27126c9133bb4f27c
+SHA256: 63c677bffeb621ebad8467fe706f2177ebfab8e0874d4f762cee886348207d2e
+SHA512: ee3e0c3f0b0ed0466b87c768ee915db48d02d6b6dfa106454233581d267f87da88aa5002049b917389a01edf3a12a47fe84dd4461e8850e28ac8df2459eb90bb
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: ssh-honeypot
+Architecture: aarch64
+Version: 0.1.0
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 68
+Depends: libssh, json-c
+Filename: dists/termuxblack/main/binary-aarch64/ssh-honeypot_0.1.0_aarch64.deb
+Size: 7510
+MD5sum: 28562952bd4b4bb7e5eb3d54c221cf4b
+SHA1: f4b45c19834c0c7b28a847b9a66e99cbb4bc20b6
+SHA256: b6e462578822acabaed8f7276ab5c20df80d7df95b90a1f24497c9eb1d1a249e
+SHA512: fdbd11f8d9e9fba8861d47e66e99673e39bf323292b71ce5ea729795092cc251ea80ebdbbe4052049e799581e311245e4826b976b8d54aa20e6d4b87110e6aa1
+Homepage: https://github.com/droberson/ssh-honeypot#quickstart
+Description: Fake sshd that logs ip addresses, usernames, and passwords.
+
+Package: trape
+Architecture: all
+Version: 2.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 4168
+Depends: python2.7, build-essential
+Filename: dists/termuxblack/main/binary-aarch64/trape_2.0_all.deb
+Size: 869188
+MD5sum: 37eadd16551d125af0b6c7788b85eacd
+SHA1: 89b1f991f013dce5404309e1609e5af225c2ad4e
+SHA256: bfb7298587499429c6593fb37e4ce8d61a6180a3f2a8ab21dc83d8073adf2c89
+SHA512: 2ee4a78ff85205d5f73bb5bf850b35d09b0972343dbd0e7ba48a15774fe974f4a58e979e5e4959aa6ebff4e61f5ec60832200fb17780f55f0e4e731fba31a13c
+Homepage: https://github.com/jofpin/trape/blob/master/README.md
+Description: Trape is an OSINT analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time.
+
+Package: python2.7
+Architecture: aarch64
+Version: 2.7.18
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 18660
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Conflicts: python2
+Breaks: python2-dev
+Replaces: python2-dev, python2
+Filename: dists/termuxblack/main/binary-aarch64/python2.7_2.7.18_aarch64.deb
+Size: 4881072
+MD5sum: 06d6561900d0e3c7852c1ef5ddab6fe9
+SHA1: 53e353359a8727b02061052dc35420750d658145
+SHA256: beb003d685eb86f61bff6151b2f2bbb92489710bb79625102555533060cad416
+SHA512: 35a47ea33be909d75d30550cc793ccf27f93a2379285b05529bc9c5bfa4eeb557a0c37ab001936a44cf5abb098730feb8686f09a3172ad0c6eae8c1b09554914
+Homepage: http://python.org/
+Description: Python 2 programming language intended to enable clear programs
+
+Package: python2.7-static
+Architecture: aarch64
+Version: 2.7.18
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 9892
+Depends: python2.7 (= 2.7.18)
+Filename: dists/termuxblack/main/binary-aarch64/python2.7-static_2.7.18_aarch64.deb
+Size: 1721056
+MD5sum: 4ae263ac025e56f4c6e869220f9e159d
+SHA1: 67289c47f0b95d70f216d2fd53282d5c32c33dba
+SHA256: 05f3d623b57b1d6b4031e9a659c04aa32aa8b18ad54bc89ba572b116ac4a1f3e
+SHA512: 2b9cc98171456a3087e7ba957f5c8f2a78eb08787a2cdfeaf813876e892418a170b21866c7b691ec15da670c5f8c2d52862134d00ce69fba2b98263c6cfeaa55
+Homepage: http://python.org/
+Description: Static libraries for python2.7
+
