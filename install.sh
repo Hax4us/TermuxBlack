@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+-#!/usr/bin/env sh
 
 # Create separate directory for my repositor
 decoration() {
@@ -16,7 +16,7 @@ addrepo() {
 	mkdir -p $PREFIX/etc/apt/sources.list.d && printf "deb https://hax4us.github.io/TermuxBlack/ termuxblack main" > $PREFIX/etc/apt/sources.list.d/termuxblack.list
 
 	# Add gpg public key
-	wget -q https://hax4us.github.io/TermuxBlack/termuxblack.key && apt-key add termuxblack.key
+	wget -q https://hax4us.github.io/TermuxBlack/termuxblack.key -O termuxblack.key && apt-key add termuxblack.key
 	
 	# just update
 	apt-get update -yq --silent
