@@ -1,0 +1,61 @@
+Package: termux-elf-cleaner-5
+Architecture: x86_64
+Version: 5
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 52
+Filename: dists/termuxblack/main/binary-x86_64/termux-elf-cleaner-5_5_x86_64.deb
+Size: 4064
+MD5sum: 8bfa9c783a0f8640abf35900ffef58bb
+SHA1: 465be4ad9b5d6810abfee9d224237e213eb18e1f
+SHA256: 59c64257f2bb8233193e891bbd402a93f62f8489b77bdd3c28c91b9f53d72473
+SHA512: 331e5013a9f84405c9bcefac5d12bc4c53c5e56a29e1e41df4c429e8b0e3f140233400282ca46894b8896198dd87fc6ff70d26b1b73f6ff29c4e12bd889d027d
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: python2.7
+Architecture: x86_64
+Version: 2.7.18
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 18876
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Conflicts: python2
+Breaks: python2-dev
+Replaces: python2-dev, python2
+Filename: dists/termuxblack/main/binary-x86_64/python2.7_2.7.18_x86_64.deb
+Size: 5108512
+MD5sum: 3ce13421a517464d44a7ab795969d6ee
+SHA1: 8227748454d8d644a6d6c49497a87c3d4a01620d
+SHA256: aed1206b10ec5feac6fa2e51bfc300ab3cd347505e5ee51477255c271e8b58dc
+SHA512: d51738de65682c40d8b91edde453f1861362bb53dbe6182027164993defcd81c31203d4a67bf667c1809dcdbfd5d7f89d8eaa050b9ad4892f5ba97ac42a449cf
+Homepage: http://python.org/
+Description: Python 2 programming language intended to enable clear programs
+
+Package: ssh-honeypot
+Architecture: x86_64
+Version: 0.1.0
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 64
+Depends: libssh, json-c
+Filename: dists/termuxblack/main/binary-x86_64/ssh-honeypot_0.1.0_x86_64.deb
+Size: 7526
+MD5sum: e01c7c4acbd43c96db7924906ca6200d
+SHA1: 89403dc3c993ac49ed5a373d86da7503e1023a20
+SHA256: 3c98eb13db75c9019fcd2901ac6a59e17480d9ee9cbc22a8f23fadb6f9d3801f
+SHA512: a4099efde3b3810948679011719e3da7b2225aa759b53c4a17ebce33a93278a9f7a01923023621fec507f98f0bd2402d655541c6be957ee2bb7419cafe10389b
+Homepage: https://github.com/droberson/ssh-honeypot#quickstart
+Description: Fake sshd that logs ip addresses, usernames, and passwords.
+
+Package: pdfcrack
+Architecture: x86_64
+Version: 0.19
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 136
+Filename: dists/termuxblack/main/binary-x86_64/pdfcrack_0.19_x86_64.deb
+Size: 27456
+MD5sum: 11e32e60830c603b96c169940928e32b
+SHA1: fd3ccb0c58faa1fa58d75e3ff0080baf37220529
+SHA256: fd92cc9708017a69eca9b67f6e25ea0279b2ff6be76485970cb09aac755c4146
+SHA512: 2bef81d4df4283ab7d58ffcce673c9274001b924f9a51ac04cfb688883bbde1a0357cf02ccf355eb3d308edecd9084f4cd62b46d41770d000f47a4fddc01fc98
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+

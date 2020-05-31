@@ -1,0 +1,61 @@
+Package: termux-elf-cleaner-5
+Architecture: arm
+Version: 5
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Filename: dists/termuxblack/main/binary-arm/termux-elf-cleaner-5_5_arm.deb
+Size: 7892
+MD5sum: 782583dcbb363407929279758a480bb7
+SHA1: 209084e3d0ad3e4da12730614ea97dd998d38b3f
+SHA256: 0a18492eac5cbfa2b7b1ff583bd2fb33cb852cf54d0dfea190fe2781209ea404
+SHA512: 21bee672a01a8ca63ba2510f0f3c1ac13d8e28695130b0f82aadbddb05c3a89fe959b2386435cb359cf903057d69f02a13ccbd6e84698a0f5ecd951f41ed9e31
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: python2.7
+Architecture: arm
+Version: 2.7.18
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 17348
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Conflicts: python2
+Breaks: python2-dev
+Replaces: python2-dev, python2
+Filename: dists/termuxblack/main/binary-arm/python2.7_2.7.18_arm.deb
+Size: 4889714
+MD5sum: cce32bd2aa7b072eff4ff67d273ce7fe
+SHA1: 658561f69d4cd17d093ca83c51ae33d6a04ca91f
+SHA256: aba61315913a6a2e3b8512e6f603f145189291aa27c6ece7e20e18f8a955d33c
+SHA512: a9d5734c2b5594aa4d3e6afaa54cda8cc362c63cae488051cfdfbaea2c33a4e2c9c9a650d718025a6ebccca02cc754037064ecc8d6be3665e575fc8ed20e4b57
+Homepage: http://python.org/
+Description: Python 2 programming language intended to enable clear programs
+
+Package: pdfcrack
+Architecture: arm
+Version: 0.19
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 100
+Filename: dists/termuxblack/main/binary-arm/pdfcrack_0.19_arm.deb
+Size: 24234
+MD5sum: 65bbd15891d7b7f7d0ff945f83cb4851
+SHA1: 01833d7393dbb01598c4ee496ea2e818f2bf3083
+SHA256: 4f9dc56fd8506c997f51dbdb6ef9169b1e45db5a8db42496d0c255c974decaac
+SHA512: cb4d3df9917dd056095e78ba100de5fa2cf27a370dc921f298fbc1ab6113c409efead896a165f34ea017cafa385e1cf71d863631583edf43fcfb29d13df2f6fe
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+
+Package: ssh-honeypot
+Architecture: arm
+Version: 0.1.0
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Depends: libssh, json-c
+Filename: dists/termuxblack/main/binary-arm/ssh-honeypot_0.1.0_arm.deb
+Size: 6634
+MD5sum: 3203cc462d81ff1d45d035a2c168bd45
+SHA1: 25542abe738747341ae15b6192511d440158800a
+SHA256: fda6fb6fd02a6125d62e8e8151f763723a9968e8521fb65a3d037785d90793ab
+SHA512: 19cc376bfe5051dea0ba01d72d0f62b493a2f90254e122f05f013913a9b6ef9cbd0074c846eab98ebff869e0eb612314b3eeaed9364410135a4b857e9a17be0c
+Homepage: https://github.com/droberson/ssh-honeypot#quickstart
+Description: Fake sshd that logs ip addresses, usernames, and passwords.
+

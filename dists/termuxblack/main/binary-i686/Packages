@@ -1,0 +1,61 @@
+Package: pdfcrack
+Architecture: i686
+Version: 0.19
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 116
+Filename: dists/termuxblack/main/binary-i686/pdfcrack_0.19_i686.deb
+Size: 22792
+MD5sum: 4d294a2eab3960d20230de06937bda76
+SHA1: 46aa70b8e71c840d0fab7577c9c2f45253f366af
+SHA256: 8a4476f9a09f2bdb0e7b56697079281ed79983b55d0aa174edb3e1dab0a0a0a8
+SHA512: c3ace401ba2c65c2eb12cd23f559285b2e61fa2ea6b0519c0fcb85ba2d503c1a95ae536182d7483b8bdae3190b7334c9c3f627a28e1265c5d4214c1459a5b801
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+
+Package: ssh-honeypot
+Architecture: i686
+Version: 0.1.0
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Depends: libssh, json-c
+Filename: dists/termuxblack/main/binary-i686/ssh-honeypot_0.1.0_i686.deb
+Size: 7224
+MD5sum: f77ffc8c69970441000d897724dab798
+SHA1: 31aecd006eb86b92d125ceb867f57e48e6a84b89
+SHA256: 7987012cd4947de49afc57c5b36a3b9d26726793c1280ca522c84b27a63b4b65
+SHA512: 9875906890b8bfd41bca0902706139fc81554cfde03523673b8d582af70011bd003e8a582ca0f3b6a4fa123fe72a0998b325be31af6c56097d630b43346977be
+Homepage: https://github.com/droberson/ssh-honeypot#quickstart
+Description: Fake sshd that logs ip addresses, usernames, and passwords.
+
+Package: termux-elf-cleaner-5
+Architecture: i686
+Version: 5
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 52
+Filename: dists/termuxblack/main/binary-i686/termux-elf-cleaner-5_5_i686.deb
+Size: 4036
+MD5sum: e41f368721b2499da2a7ce2247fdac9a
+SHA1: 9e3f413aeafdb32ca5886f8e20e8631a7d1368ba
+SHA256: 7d4e4b3010d51ced31e80d597c30ee872fad7111c2e5be9185968ffaa28b8271
+SHA512: df7e98f271122ec2c05ea20fb340d6d8c1989ea51f14b08f3b3e5aaab4e04357746e2569267a2f1e17cbf583b44a8ce29eaa859958806dd7613a9e4e77373ed2
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: python2.7
+Architecture: i686
+Version: 2.7.18
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 17996
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Conflicts: python2
+Breaks: python2-dev
+Replaces: python2-dev, python2
+Filename: dists/termuxblack/main/binary-i686/python2.7_2.7.18_i686.deb
+Size: 4946902
+MD5sum: 9d97466ed48ece6fdc16fe58e4668862
+SHA1: d1a1236f9b8d7b5447f56f1139893151445a7762
+SHA256: 6843b321953b9da655677f6859106de7eb92cc4a057ce4765f901027acf9c1f7
+SHA512: 6a116e8052e84f2f52e8650c1a26f72b9ac189ff5cb288351f68f5d8f2d27f2cfcbddcf889ece6e49c002a5e975c413527e983df884aa94169ce1dd09a99a990
+Homepage: http://python.org/
+Description: Python 2 programming language intended to enable clear programs
+
