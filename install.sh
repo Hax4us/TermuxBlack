@@ -7,8 +7,8 @@ decoration() {
 	for i in colors.properties termux.properties font.ttf; do
 		wget -q https://github.com/Hax4us/TermuxBlack/raw/master/style/$i -O ~/.termux/$i
 	done
-	rm -r $PREFIX/etc/motd
-	echo "toilet -F metal -F border -f future termux black" >> $PREFIX/etc/bash.bashrc
+	#rm -r $PREFIX/etc/motd
+	#echo "toilet -F metal -F border -f future termux black" >> $PREFIX/etc/bash.bashrc
 }
 
 addrepo() {
