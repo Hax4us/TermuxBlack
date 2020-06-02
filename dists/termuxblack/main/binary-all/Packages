@@ -5,11 +5,11 @@ Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 27580
 Depends: nodejs, apkmod
 Filename: dists/termuxblack/main/binary-all/lemon_1.0_all.deb
-Size: 18892826
-MD5sum: 74ef261666f88fb7ad72c316a5b9b78a
-SHA1: e73123167dc9402c80f6c170b09ce80af31204b4
-SHA256: 734711b52dd7cfe3eb9840af12141bacd454b60af39e93f051879794ee390879
-SHA512: b923ce9021097980943d2ce3621ac8991f56e680840efb84c53b6a4c1527310843f2800ab1d55e29b9d87208e73d608c0c336df1db11443c1ae3f8075e664608
+Size: 18892524
+MD5sum: e7cd3295aa59e3a1cb0dfa7772718c36
+SHA1: 92bd29aefde84f32a14da830b50af486d2f6a98e
+SHA256: f437fe46d143ff6a6a99fbc997e8eff2d6baae1e665447dfedfe80cf40db6d08
+SHA512: 201f863e3738eeb879b0e9df7d6f04ecf8773ba9d5ea4f21980511da8e2266e286c68b298a38a7a8b63e95051a6907491f23a80b8c82428270b16f5163fb417b
 Homepage: https://github.com/D3VL/L3MON
 Description: Remote Android Managment Suite
 
