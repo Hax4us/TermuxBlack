@@ -1,3 +1,18 @@
+Package: apkmod
+Architecture: all
+Version: 2.0-1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 4
+Depends: aapt, apksigner, wget, bc, proot
+Filename: dists/termuxblack/main/binary-all/apkmod_2.0-1_all.deb
+Size: 898
+MD5sum: 68f93f8cd29f3d1bae4f6b38905eb057
+SHA1: 53b3461e72c65176d08e531427a76412c4a8eda0
+SHA256: c58d3253cefc53ebc43aa51415f4c75a44ba6a5a3bc3c1b65d4159837ea56f61
+SHA512: 9cf7455a0608d0f1b9c72401e933e866637ed27b686bbefa31fd970a0002933420856a34c3ce1cdfffc9957511341e4c684fc9b9eca84f35a179cb94552f9a70
+Homepage: https://github.com/Hax4Us/Apkmod
+Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
+
 Package: lemon
 Architecture: all
 Version: 1.0
