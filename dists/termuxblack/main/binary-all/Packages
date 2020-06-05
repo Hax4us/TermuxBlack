@@ -13,21 +13,6 @@ SHA512: 201f863e3738eeb879b0e9df7d6f04ecf8773ba9d5ea4f21980511da8e2266e286c68b29
 Homepage: https://github.com/D3VL/L3MON
 Description: Remote Android Managment Suite
 
-Package: apkmod
-Architecture: all
-Version: 2.0
-Maintainer: Lokesh Pandey @hax4us
-Installed-Size: 4
-Depends: aapt, apksigner, wget, bc
-Filename: dists/termuxblack/main/binary-all/apkmod_2.0_all.deb
-Size: 892
-MD5sum: 271f62ae7278344f40eed50c04c81983
-SHA1: f5c56ab37eccccc5f8ab52a945e5e26541c37bc6
-SHA256: 5414e8ff2e87c795262afff3f99d5c8dc12031ca23a6bd49716bbb06f2a47960
-SHA512: a78c5ce5271f7a0e6c164a2d6766f8823036c9087096ceaeaed70cc95204f9efd18994e10b9c4a0c1487ba0d9a55108523e0e6dfd30119d9f5ebb03d2ee1ab0c
-Homepage: https://github.com/Hax4Us/Apkmod
-Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
-
 Package: beef-xss
 Architecture: all
 Version: 0.5.0.0-alpha-pre-0
