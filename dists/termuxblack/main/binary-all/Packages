@@ -15,6 +15,21 @@ Description: Apkmod can decompile, recompile, sign APK, and bind the payload wit
 
 Package: lemon
 Architecture: all
+Version: 1.0-1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 27584
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_1.0-1_all.deb
+Size: 18892642
+MD5sum: b6a4c5eaa95c2c2c865aee9f88ea7fae
+SHA1: 8f2e694623ba1382bfda65d4add479d5014d79cc
+SHA256: 609fc48f8322bf9ded8bbc9b4cf214b7633e26b65d112191011d5732b4f6ffe6
+SHA512: 2a5014036373354d572fcbb6477a324b4c1a89dfcfbc6d70fdd2cb07bfdceb23476c1a0f022728ac8eed006f34309fadfa6fe2db0eba0c8c6eba06388ace38ce
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
+Package: lemon
+Architecture: all
 Version: 1.0
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 27580
