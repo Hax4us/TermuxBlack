@@ -19,11 +19,11 @@ Version: 2.0
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 4
 Filename: dists/termuxblack/main/binary-all/apkmod_2.0_all.deb
-Size: 868
-MD5sum: ba0167951cf122331af330bea75fa638
-SHA1: d43f148a8ec3fc17bebe12b1862a7d9ff7b32d75
-SHA256: 5b2df04f3e2c607fd0554cbd247c3776e6a80f9d2945f0c21837f6440bf0fa03
-SHA512: 0e22341e3c8526fded43b72702bc8280b3acfe360f7020db0b99d51820ff6c5641b2929d3276c3c422e2f24e440494c0de51477b0eac107ef66fb44967d348c5
+Size: 864
+MD5sum: 46f6e48f4ffcfe4b11ba4890b96fadeb
+SHA1: 94fdfa6be80fc25621afd7b6234353e3d34c6b53
+SHA256: 58d47c64ec96a1bc130083a1cc0f2511927c22414732d6a75d9b1dce108a2953
+SHA512: f8eaead027c2dd9a7ab4100cf280e77fe47ef61aa052e435ae803bdaac53eb1ba0a3b0072dc74c5824f624be548212e5018c8c56c147159213e4ce3ef8fbe9df
 Homepage: https://github.com/Hax4Us/Apkmod
 Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
 
