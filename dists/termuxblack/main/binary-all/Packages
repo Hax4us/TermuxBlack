@@ -1,47 +1,17 @@
 Package: apkmod
 Architecture: all
-Version: 2.0-1
+Version: 2.0-2
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 4
-Depends: aapt, apksigner, wget, bc, proot
-Filename: dists/termuxblack/main/binary-all/apkmod_2.0-1_all.deb
-Size: 898
-MD5sum: 68f93f8cd29f3d1bae4f6b38905eb057
-SHA1: 53b3461e72c65176d08e531427a76412c4a8eda0
-SHA256: c58d3253cefc53ebc43aa51415f4c75a44ba6a5a3bc3c1b65d4159837ea56f61
-SHA512: 9cf7455a0608d0f1b9c72401e933e866637ed27b686bbefa31fd970a0002933420856a34c3ce1cdfffc9957511341e4c684fc9b9eca84f35a179cb94552f9a70
+Depends: aapt, apksigner, wget, bc, proot, bsdtar
+Filename: dists/termuxblack/main/binary-all/apkmod_2.0-2_all.deb
+Size: 902
+MD5sum: 04a37e8a33383c719c8317b279a098f9
+SHA1: 74f5b7fff7a2cc706dbb0e061cc267f0b22241c3
+SHA256: a72a6ef4162795d7611b2fee9dccaceac7ea5abfa00f005435c71db3e74218b5
+SHA512: b7cb7e69d4b9c79468e9baf3f4aee3ef472c2b7c3892e99c6618c7906350d336cb8e3871ebe59f0dd44660933bd0fc1c4e0caeeb2262cd1dbd55db59390db2cd
 Homepage: https://github.com/Hax4Us/Apkmod
 Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
-
-Package: lemon
-Architecture: all
-Version: 1.0-1
-Maintainer: Lokesh Pandey @hax4us
-Installed-Size: 27584
-Depends: nodejs, apkmod
-Filename: dists/termuxblack/main/binary-all/lemon_1.0-1_all.deb
-Size: 18892642
-MD5sum: b6a4c5eaa95c2c2c865aee9f88ea7fae
-SHA1: 8f2e694623ba1382bfda65d4add479d5014d79cc
-SHA256: 609fc48f8322bf9ded8bbc9b4cf214b7633e26b65d112191011d5732b4f6ffe6
-SHA512: 2a5014036373354d572fcbb6477a324b4c1a89dfcfbc6d70fdd2cb07bfdceb23476c1a0f022728ac8eed006f34309fadfa6fe2db0eba0c8c6eba06388ace38ce
-Homepage: https://github.com/D3VL/L3MON
-Description: Remote Android Managment Suite
-
-Package: lemon
-Architecture: all
-Version: 1.0
-Maintainer: Lokesh Pandey @hax4us
-Installed-Size: 27580
-Depends: nodejs, apkmod
-Filename: dists/termuxblack/main/binary-all/lemon_1.0_all.deb
-Size: 18892524
-MD5sum: e7cd3295aa59e3a1cb0dfa7772718c36
-SHA1: 92bd29aefde84f32a14da830b50af486d2f6a98e
-SHA256: f437fe46d143ff6a6a99fbc997e8eff2d6baae1e665447dfedfe80cf40db6d08
-SHA512: 201f863e3738eeb879b0e9df7d6f04ecf8773ba9d5ea4f21980511da8e2266e286c68b298a38a7a8b63e95051a6907491f23a80b8c82428270b16f5163fb417b
-Homepage: https://github.com/D3VL/L3MON
-Description: Remote Android Managment Suite
 
 Package: lemon
 Architecture: all
