@@ -43,6 +43,21 @@ SHA512: 201f863e3738eeb879b0e9df7d6f04ecf8773ba9d5ea4f21980511da8e2266e286c68b29
 Homepage: https://github.com/D3VL/L3MON
 Description: Remote Android Managment Suite
 
+Package: lemon
+Architecture: all
+Version: 1.0-2
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 27584
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_1.0-2_all.deb
+Size: 18892536
+MD5sum: b56db3a79377a15528ced98e7d2d228c
+SHA1: 29f859ea07b5eab8db9c22ce29fd7b2706140a19
+SHA256: 1049561fe50ec985a31a70d7d118fc6f7ffb0c29247754c0003f95020245c1d8
+SHA512: 5e6224ccef5f1939aed50b15c09b132a530f9968145ae40af802fdaa5a17660f08d82d787af6115514bdf28e3485b7966b50f2143efd70071c3d4f6c21e359f3
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
 Package: beef-xss
 Architecture: all
 Version: 0.5.0.0-alpha-pre-0
