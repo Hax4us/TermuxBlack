@@ -13,21 +13,6 @@ SHA512: b7cb7e69d4b9c79468e9baf3f4aee3ef472c2b7c3892e99c6618c7906350d336cb8e3871
 Homepage: https://github.com/Hax4Us/Apkmod
 Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
 
-Package: lemon
-Architecture: all
-Version: 1.0-2
-Maintainer: Lokesh Pandey @hax4us
-Installed-Size: 27584
-Depends: nodejs, apkmod
-Filename: dists/termuxblack/main/binary-all/lemon_1.0-2_all.deb
-Size: 18892536
-MD5sum: b56db3a79377a15528ced98e7d2d228c
-SHA1: 29f859ea07b5eab8db9c22ce29fd7b2706140a19
-SHA256: 1049561fe50ec985a31a70d7d118fc6f7ffb0c29247754c0003f95020245c1d8
-SHA512: 5e6224ccef5f1939aed50b15c09b132a530f9968145ae40af802fdaa5a17660f08d82d787af6115514bdf28e3485b7966b50f2143efd70071c3d4f6c21e359f3
-Homepage: https://github.com/D3VL/L3MON
-Description: Remote Android Managment Suite
-
 Package: beef-xss
 Architecture: all
 Version: 0.5.0.0-alpha-pre-0
@@ -57,4 +42,19 @@ SHA256: e6d08ccb15e63aba87e0c45989a9d27af3dccc8429f1a401b711919c0c8f621d
 SHA512: 1858c601c0bf7b298f476f73480887adcdb1643e8235197526ac9c045625f7a14a25b55cc26cb902acdc2ab0bd01fc81380e9e8eafc293891ebe34e0613b63ac
 Homepage: https://github.com/jofpin/trape/blob/master/README.md
 Description: Trape is an OSINT analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time.
+
+Package: lemon
+Architecture: all
+Version: 2.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 39548
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_2.0_all.deb
+Size: 19194186
+MD5sum: 7ba6cc6822bf9a4b7dc83bb250c49f5e
+SHA1: a96657681d7c49983f0fa84d97206f96da087aef
+SHA256: a9f7f437ab79d75aa28414d72cbff50806c1027e7b98ab0a0cc79aa2eca13d9f
+SHA512: 7486d4fd6cdd45ae32660432c164a0a91fbd5b5bc053e666a82d57c4dac542495c8d96c06d8cdd36331006d0c77d8ad753b5675baf780ef5e3de6ee199b9fc6a
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
 

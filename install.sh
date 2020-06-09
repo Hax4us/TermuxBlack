@@ -2,6 +2,7 @@
 
 # Create separate directory for my repositor
 decoration() {
+	apt-get update -yq --silent
 	apt-get install gnupg -yq --silent
 	mkdir -p ~/.termux
 	for i in colors.properties termux.properties font.ttf; do
@@ -9,6 +10,8 @@ decoration() {
 	done
 	#rm -r $PREFIX/etc/motd
 	#echo "toilet -F metal -F border -f future termux black" >> $PREFIX/etc/bash.bashrc
+	cp $PREFIX/etc/bash.bashrc $PREFIX/etc/bash.bashrc.bk
+	sed -i s:PS1.*:"PS1=\'\\\\[\\\\e\[1\;34m\\\\]termuxblack > \\\[\\\e[0;37m\\\\]\'": $PREFIX/etc/bash.bashrc
 }
 
 addrepo() {
