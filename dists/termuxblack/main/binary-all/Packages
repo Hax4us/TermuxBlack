@@ -13,6 +13,21 @@ SHA512: b7cb7e69d4b9c79468e9baf3f4aee3ef472c2b7c3892e99c6618c7906350d336cb8e3871
 Homepage: https://github.com/Hax4Us/Apkmod
 Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
 
+Package: lemon
+Architecture: all
+Version: 2.1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 28328
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_2.1_all.deb
+Size: 18752514
+MD5sum: 257b049301dd7b095052dd6c57cbb5a5
+SHA1: dd71b55c5f1ca9a477cd3d0b8a85f72f30922ff2
+SHA256: 0d207d3c5dfeecf220de3582b1bdf82a952065a8322676ee33a8c9566cd9a1aa
+SHA512: 01329028ca130edcf8a63e168a7d04e96c8318cef918648a83b5f7ff8e9076fff55d41ad6520ead8bd28f1300a22da1c0fdedc00b2e851c3b156bf80fefa4e7e
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
 Package: beef-xss
 Architecture: all
 Version: 0.5.0.0-alpha-pre-0
