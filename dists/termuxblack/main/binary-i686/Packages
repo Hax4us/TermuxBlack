@@ -59,3 +59,18 @@ SHA512: 6a116e8052e84f2f52e8650c1a26f72b9ac189ff5cb288351f68f5d8f2d27f2cfcbddcf8
 Homepage: http://python.org/
 Description: Python 2 programming language intended to enable clear programs
 
+Package: apkmod2
+Architecture: i686
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 56
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-i686/apkmod2_1.0_i686.deb
+Size: 4612
+MD5sum: 944fde5f8befa25368e50b1a75171d8a
+SHA1: af2e49632ab4ae429baba94197f150c0cd14a6c7
+SHA256: 16f7de4c92de6e8dd235654cf640f52135d974325336095bb8c175d21b8847ae
+SHA512: 8170214a37358339235faf90d284ccd2c7c16575fa13169bccf2b1fdd4dc245c835b34fbce4dc30940608913f226a02b6c7f4fbfd7db0f575534d05179f5780c
+Homepage: Not Available
+Description: A RAT binder
+
