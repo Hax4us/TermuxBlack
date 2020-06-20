@@ -52,10 +52,10 @@ Installed-Size: 56
 Depends: libxml2
 Filename: dists/termuxblack/main/binary-arm/apkmod2_1.0_arm.deb
 Size: 4372
-MD5sum: 98dd44ce297e416edcfe4d4270cfabd3
-SHA1: 82e223da137cf2bf01deeb74db102b9edfd9efba
-SHA256: 0787a51cd50f7703e48b213568068e43cc00c87a259c2bd40e261a242e7da652
-SHA512: dac82e2639e18df193ca21ca6dc05df8424362c7a8959e5c89f6049839c0fc2b9e082e35d7bd8908f2df580e3872abee5aa23f65a1a01f75e01e849436214653
+MD5sum: ba7731324f8f1ff5063e8222e5c35d14
+SHA1: 968fe9dc604cfd0e42ad742220a3071603f74a1d
+SHA256: eb8cc5b3e9bc0bfaa8d166e6e8d3dc9536a73eed286799bc3c7bcdad87091675
+SHA512: 6c6d6af4b822f83fb71e320d39bcffed7aed4d9670ac903e96e3484c1fb8b37f6f7f99e5a6d14cfcb58fd070627ecf4f0caf65cfe0e5d549a03521fabbac03ea
 Homepage: Not Available
 Description: A RAT binder
 
