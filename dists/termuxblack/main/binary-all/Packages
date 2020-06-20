@@ -1,3 +1,18 @@
+Package: lemon
+Architecture: all
+Version: 2.1-1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 28356
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_2.1-1_all.deb
+Size: 18753798
+MD5sum: 55a3fe932154624f0b421d5f900e0482
+SHA1: e98fa492a7c41c39d3f701c19dce3fa1db8e9d74
+SHA256: 89798d1697c6d0fe97d80f0e52e035b624c09e5bf726e9a6484850d34077e90f
+SHA512: f66dea42ac52f410a5cf23076c4ce76956e6742d006836e6c18ed0234d167d2726cc337871053abd07fb03c481157c221d3c60eb8c776d3bebac058c062bfa4e
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
 Package: apkmod
 Architecture: all
 Version: 2.0-2
