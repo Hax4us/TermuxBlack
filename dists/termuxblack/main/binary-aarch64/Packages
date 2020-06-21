@@ -1,5 +1,20 @@
 Package: apkmod2
 Architecture: aarch64
+Version: 1.1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 64
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-aarch64/apkmod2_1.1_aarch64.deb
+Size: 5030
+MD5sum: effde0c5b0ed8524737242dde65fa256
+SHA1: 1a784cbcd48dda3ddceab8aac1ee07e2465019ee
+SHA256: a267b15000d2965619ba91622e73518c63ef83194f46e0072d55feed7118b934
+SHA512: 880dc9c62a8ec3a7528082dc80a058f330f63effad36193cf6a2bc5ee8f08a786838553e2781e772e73e61359d1a18e85fdbd406720a35498302ee255e8354df
+Homepage: Not Available
+Description: A RAT binder
+
+Package: apkmod2
+Architecture: aarch64
 Version: 1.0
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 64

@@ -12,6 +12,21 @@ SHA512: 21bee672a01a8ca63ba2510f0f3c1ac13d8e28695130b0f82aadbddb05c3a89fe959b238
 Homepage: https://github.com/termux/termux-elf-cleaner
 Description: Cleaner of ELF files for Android
 
+Package: apkmod2
+Architecture: arm
+Version: 1.1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 56
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-arm/apkmod2_1.1_arm.deb
+Size: 4760
+MD5sum: 7e25706e39a9828fde7911a5a5974ec1
+SHA1: ee4bdf99111853dcb66872b5554423bbc5fec308
+SHA256: 7494d17ea79d44a96e18b04704fe33d514f2982c03f8ae8dd757cd1b8e776282
+SHA512: 68200cf3cdde69e8b1b4f53f8489a6c9f522527feec2daf0c0f2945d2f7da025707b21efe3ebbce19fa3c3fc7735f4876a39887dddb1e71454de55f607c4efec
+Homepage: Not Available
+Description: A RAT binder
+
 Package: python2.7
 Architecture: arm
 Version: 2.7.18
