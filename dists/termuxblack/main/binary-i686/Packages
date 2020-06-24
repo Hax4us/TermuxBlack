@@ -43,6 +43,21 @@ Description: Cleaner of ELF files for Android
 
 Package: apkmod2
 Architecture: i686
+Version: 1.2
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 60
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-i686/apkmod2_1.2_i686.deb
+Size: 5628
+MD5sum: a498700c88ffe31e22a653518f517893
+SHA1: 632f9632b43dee16820ee40b00bbd4b5f0f28d5a
+SHA256: f7895091cc36ced805b54b347e79c4bc2e7d724695549a5718473d3c193def82
+SHA512: 62f14d9f8050e82b73361e714214274c241d5c2c4ea3565663575aaff84752a8743d17365f7860293a9de1771cc3052787afde65c4b2f83aa6fed0a76b8a7930
+Homepage: Not Available
+Description: A RAT binder
+
+Package: apkmod2
+Architecture: i686
 Version: 1.1
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 60

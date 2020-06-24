@@ -15,6 +15,21 @@ Description: A RAT binder
 
 Package: apkmod2
 Architecture: aarch64
+Version: 1.2
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 64
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-aarch64/apkmod2_1.2_aarch64.deb
+Size: 5528
+MD5sum: 6d55f263ea4352f6421320f5a2af3833
+SHA1: 8644bdf93e5640b24efccf9c5747c8cc2337d67a
+SHA256: 21eed007177feaf7c0203d667cf6e9fe638c54e90c855116e6ea24ecde5f8b64
+SHA512: 55b27d8dc8d9e3d0cc6d93ccef76cd58e87019a41f0a49e9c2580ba52c80ce20c93d66c3e26fb863df2864c7a403e4b9ae95e50518bb40d723c6dd46c7b0523c
+Homepage: Not Available
+Description: A RAT binder
+
+Package: apkmod2
+Architecture: aarch64
 Version: 1.0
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 64
