@@ -13,6 +13,21 @@ SHA512: f66dea42ac52f410a5cf23076c4ce76956e6742d006836e6c18ed0234d167d2726cc3378
 Homepage: https://github.com/D3VL/L3MON
 Description: Remote Android Managment Suite
 
+Package: haxrat
+Architecture: all
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 21980
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/haxrat_1.0_all.deb
+Size: 1923054
+MD5sum: 5224287335d38f7217e832b8578be394
+SHA1: fce465e78c79620a95599b2424fadd2f7240391a
+SHA256: 02b01d30c1b6ac6f4c942a64007b9afa1984a6146dc98bed827474e53e6a8eb3
+SHA512: 5c32c76db08b76d636750fb65ae9bb601aa06866d2ff48e7328e52dd351ea24bd5599ef8d501b1f58634f03788f30951ed7965d9d616e2b7f72434264a65c5df
+Homepage: https://github.com/hax4us/haxRat.git
+Description: Remote Android Managment Suite
+
 Package: apkmod
 Architecture: all
 Version: 2.0-2
