@@ -18,3 +18,6 @@ it is unofficial repository maintained by me @hax4us. you can check available pa
 4. pdfcrack
 5. lemon
 6. apkmod
+7. haxRat
+8. msfpc
+9. apkmod2

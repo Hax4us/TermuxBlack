@@ -1,3 +1,18 @@
+Package: haxrat
+Architecture: all
+Version: 1.0-1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 37944
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/haxrat_1.0-1_all.deb
+Size: 17969828
+MD5sum: 988d04627283f6a25683bedc23f70d31
+SHA1: 2b151a4241548f2688b348c1f5f11d0307ac163f
+SHA256: 1e54e32e085732ba85d1bff46fec44c6dce24891eb757ec3ddb3a10a60767183
+SHA512: c645e50562a7afc5c7e0c2b456dec60cba2b36d36a92836e2e831a3c04fdb8281f79d051bb7698dc7cdce340f77e8e105656db75a68ff78d4e563b8e78f75207
+Homepage: https://github.com/hax4us/haxRat.git
+Description: Remote Android Managment Suite
+
 Package: lemon
 Architecture: all
 Version: 2.1-1
@@ -42,6 +57,20 @@ SHA256: a72a6ef4162795d7611b2fee9dccaceac7ea5abfa00f005435c71db3e74218b5
 SHA512: b7cb7e69d4b9c79468e9baf3f4aee3ef472c2b7c3892e99c6618c7906350d336cb8e3871ebe59f0dd44660933bd0fc1c4e0caeeb2262cd1dbd55db59390db2cd
 Homepage: https://github.com/Hax4Us/Apkmod
 Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
+
+Package: msfpc
+Architecture: all
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 4
+Filename: dists/termuxblack/main/binary-all/msfpc_1.0_all.deb
+Size: 870
+MD5sum: 7f993a51caa7eb69f2655f13a98d13b4
+SHA1: b3872f54ab31ddb30e392ee84e0c22f5747d8541
+SHA256: 7157f340dd40ca3e0d403052b6c060ff0c6e7813242f495231f26199d8d5bdfd
+SHA512: 31c55cb679d0e131c96519c91b8dc9968d70a6213e75b8a8594a28834d54cb7b587da90346d97da0c94f9de975f66f08dd61ba5a69fe202de02a0e9e779ec9d3
+Homepage: https://github.com/abhishekchauhan-dev/msfpc
+Description: MSFvenom Payload Creator (MSFPC) For Termux A quick way to generate various Meterpreter payloads via msfvenom
 
 Package: lemon
 Architecture: all
