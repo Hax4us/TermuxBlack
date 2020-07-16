@@ -89,6 +89,21 @@ SHA512: 6c6d6af4b822f83fb71e320d39bcffed7aed4d9670ac903e96e3484c1fb8b37f6f7f99e5
 Homepage: Not Available
 Description: A RAT binder
 
+Package: apkmod2
+Architecture: arm
+Version: 1.3
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 68
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-arm/apkmod2_1.3_arm.deb
+Size: 5412
+MD5sum: e0b5cd94438befc592b90c6ca5ab4735
+SHA1: bede8fa46576142f68acdd35b2de3ecd7de491ec
+SHA256: d8f6d05a6bf7b42c5a93017fd7c7449488e6d906e97e179a444b489fce9f39bd
+SHA512: da7debd12a9d2508057740a4a18ae0a572b99d165957edea55c51aa5808c1c239a226ec5dce1ef75267b94a31bc10a86ebcda8f211731222c66879b3022b6178
+Homepage: Not Available
+Description: A RAT binder
+
 Package: ssh-honeypot
 Architecture: arm
 Version: 0.1.0

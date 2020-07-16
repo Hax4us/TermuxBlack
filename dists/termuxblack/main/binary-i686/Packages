@@ -27,6 +27,21 @@ SHA512: 9875906890b8bfd41bca0902706139fc81554cfde03523673b8d582af70011bd003e8a58
 Homepage: https://github.com/droberson/ssh-honeypot#quickstart
 Description: Fake sshd that logs ip addresses, usernames, and passwords.
 
+Package: apkmod2
+Architecture: i686
+Version: 1.3
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 68
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-i686/apkmod2_1.3_i686.deb
+Size: 5654
+MD5sum: d79cfd381f75b010eafeaca4f5b2aeac
+SHA1: acec6466cd2c1356df994cd6d16d11e807df10be
+SHA256: feb05e5c7b3562cd9fee8750f266fa35e18698e14939dd81dbed60c9c0e7570b
+SHA512: 3e811d09311d5d7f6e87587f2c75f2aec57c68403925708d42ab3284c05406db4f8ad11504159e484f1e92dc529c60186a62759176c3e84957b9c410527e46e5
+Homepage: Not Available
+Description: A RAT binder
+
 Package: termux-elf-cleaner-5
 Architecture: i686
 Version: 5

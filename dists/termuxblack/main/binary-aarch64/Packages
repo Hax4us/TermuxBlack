@@ -43,6 +43,21 @@ SHA512: 0ab916ad98f0eb8a083df8d81de458d1357114df52db528192158fe0c93ca54443d5a415
 Homepage: Not Available
 Description: A RAT binder
 
+Package: apkmod2
+Architecture: aarch64
+Version: 1.3
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 64
+Depends: libxml2
+Filename: dists/termuxblack/main/binary-aarch64/apkmod2_1.3_aarch64.deb
+Size: 5584
+MD5sum: 7bb5706981f62e209a636f78e9f59201
+SHA1: 0b265427441b2919b711e0e0e32f8a12f756fc34
+SHA256: 00c41982e1f0e074c742ae7212e58096dd686f30048ba30ed3ed0522fcc9a3f1
+SHA512: 46225a43cf8b3313ce01b61d3a8b8c372c8aa10b78342366ceff370785ca46f97f3afa9326fbc92a0c6ac23f349a6e2a9f8f4481e65e868920c2b5443c6a8fac
+Homepage: Not Available
+Description: A RAT binder
+
 Package: pdfcrack
 Architecture: aarch64
 Version: 0.19
