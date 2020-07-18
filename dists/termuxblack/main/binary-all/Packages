@@ -15,6 +15,21 @@ Description: Remote Android Managment Suite
 
 Package: lemon
 Architecture: all
+Version: 2.1-2
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 28356
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/lemon_2.1-2_all.deb
+Size: 18753908
+MD5sum: 60edc16fcfeb987ddf0ec0cf5c0fcb27
+SHA1: f124dc3f338f44d3e557287bd576fcfa0311bf58
+SHA256: 0b5542edcd03d9d492323275cb5a6d91cf4f8016515cccaadcefa5cc0bf4ed9b
+SHA512: 185d50e008e14f65f76d2ec3b7bbb2bb5a8bd2d457dafc472d7f353fe85958193d54d99c9c91f8441c9ecbd3b3098cfbf88fba02096a24be475a6ce757f04ab5
+Homepage: https://github.com/D3VL/L3MON
+Description: Remote Android Managment Suite
+
+Package: lemon
+Architecture: all
 Version: 2.1-1
 Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 28356
@@ -71,6 +86,21 @@ SHA256: 7157f340dd40ca3e0d403052b6c060ff0c6e7813242f495231f26199d8d5bdfd
 SHA512: 31c55cb679d0e131c96519c91b8dc9968d70a6213e75b8a8594a28834d54cb7b587da90346d97da0c94f9de975f66f08dd61ba5a69fe202de02a0e9e779ec9d3
 Homepage: https://github.com/abhishekchauhan-dev/msfpc
 Description: MSFvenom Payload Creator (MSFPC) For Termux A quick way to generate various Meterpreter payloads via msfvenom
+
+Package: haxrat
+Architecture: all
+Version: 1.0-2
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 37944
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/haxrat_1.0-2_all.deb
+Size: 17969718
+MD5sum: 4424675ab889c2721fba040167160333
+SHA1: 1d10f3e80744276b0dcdafac7125cdb081e01acf
+SHA256: dad94b1a9237fe288e977b6407b4cc1cbfb52b0976cacbe3b0894c186a1733a5
+SHA512: 25840b2e09ba0a58057316bf03298a87a34466d2fd28950455ae61891b8e727b208f135517302f2d6e5c5c8dee715281cf6db6b120213627413e384226f36b3c
+Homepage: https://github.com/hax4us/haxRat.git
+Description: Remote Android Managment Suite
 
 Package: lemon
 Architecture: all
