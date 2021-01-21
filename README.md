@@ -21,3 +21,7 @@ it is unofficial repository maintained by me @hax4us. you can check available pa
 7. haxRat
 8. msfpc
 9. apkmod2
+
+### Uninstall
+1. copy & paste whole command `rm -f $PREFIX/etc/apt/sources.list.d/termuxblack.list && mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc && rm -f ~/.termux/colors.properties
+2. restart termux
