@@ -34,5 +34,6 @@ fi
 addrepo
 echo "[*] Finished :)"
 # Now trigger broadcast to make changes visible
- am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
+ 
+am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
 echo "[*] Now open new session & enjoy"
