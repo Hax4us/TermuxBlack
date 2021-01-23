@@ -26,9 +26,13 @@ addrepo() {
 }
 
 echo "[*] Installing TermuXBlacK ..."
+printf "Are you want TermuxBlack Custom PS1 ? "
+read ask
+if [[ $ask == [Y/y] ]];then
 decoration
+fi
 addrepo
 echo "[*] Finished :)"
 # Now trigger broadcast to make changes visible
-am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
+ am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
 echo "[*] Now open new session & enjoy"
