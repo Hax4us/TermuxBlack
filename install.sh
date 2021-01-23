@@ -26,7 +26,11 @@ addrepo() {
 }
 
 echo "[*] Installing TermuXBlacK ..."
+printf "Are you want TermuxBlack Custom PS1 ? "
+read ask
+if [[ $ask == [Y/y] ]];then
 decoration
+fi
 addrepo
 echo "[*] Finished :)"
 # Now trigger broadcast to make changes visible
