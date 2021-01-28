@@ -28,7 +28,7 @@ addrepo() {
 echo "[*] Installing TermuXBlacK ..."
 printf "Are you want TermuxBlack Custom PS1? [Y/n] "
 read ask
-if [[ $ask == [Y/y] ]];then
+if [[ "$ask" == [Y/y] ]];then
 decoration
 fi
 addrepo
