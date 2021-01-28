@@ -58,6 +58,21 @@ SHA512: 5c32c76db08b76d636750fb65ae9bb601aa06866d2ff48e7328e52dd351ea24bd5599ef8
 Homepage: https://github.com/hax4us/haxRat.git
 Description: Remote Android Managment Suite
 
+Package: trape
+Architecture: all
+Version: 2.0-1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 4172
+Depends: python2.7, build-essential
+Filename: dists/termuxblack/main/binary-all/trape_2.0-1_all.deb
+Size: 869220
+MD5sum: 6612d57a48b055cb54401e43640299f3
+SHA1: a44f91e8da8e72a11e5b2946d769137830f21712
+SHA256: f2936a9bc1a2cd53ec4b09509a2bd4de6ba3c9c5420384d6361074a704e3c1ae
+SHA512: 57db15e907e2ee9348c2b633ac0b4a32c31b54d65cc0224a4341ed0305d60ab75ca7cd1c236f6d1f5d17e3912a177851b0669548b015c60402a2f8d25a4f3c60
+Homepage: https://github.com/jofpin/trape/blob/master/README.md
+Description: Trape is an OSINT analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time.
+
 Package: apkmod
 Architecture: all
 Version: 2.0-2
