@@ -1,9 +1,8 @@
 #!/usr/bin/env sh
 
-# Create separate directory for my repositor
+# Create separate directory for my repository
+command -v gpg > /dev/null 2>&1 || { echo -e "\nInstalling dependencies..." ;apt update; apt install gnupg -yq --silent;}
 decoration() {
-	apt-get update -yq --silent
-	apt-get install gnupg -yq --silent
 	mkdir -p ~/.termux
 	for i in colors.properties termux.properties font.ttf; do
 		wget -q https://github.com/Hax4us/TermuxBlack/raw/master/style/$i -O ~/.termux/$i
