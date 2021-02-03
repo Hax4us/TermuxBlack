@@ -65,13 +65,28 @@ Maintainer: Lokesh Pandey @hax4us
 Installed-Size: 4172
 Depends: python2.7, build-essential
 Filename: dists/termuxblack/main/binary-all/trape_2.0-1_all.deb
-Size: 869220
-MD5sum: 6612d57a48b055cb54401e43640299f3
-SHA1: a44f91e8da8e72a11e5b2946d769137830f21712
-SHA256: f2936a9bc1a2cd53ec4b09509a2bd4de6ba3c9c5420384d6361074a704e3c1ae
-SHA512: 57db15e907e2ee9348c2b633ac0b4a32c31b54d65cc0224a4341ed0305d60ab75ca7cd1c236f6d1f5d17e3912a177851b0669548b015c60402a2f8d25a4f3c60
+Size: 869418
+MD5sum: e8df3b24d9a2fc05107b19c068fa569a
+SHA1: bea811e86eed73733ed394efab68d15fc7097e3d
+SHA256: 0dc918066f4e24026323fcb8f675e3a2fd4be426d041c442b16cfdbf9a6a05ff
+SHA512: 3c7e976bf375eddcc54012d9d594f5f51b9c6edf07e111d762bb81c8432ede9dae5d95319a5db6c8b0a300713264ced7340308dc83abf60a1e500e32e0019d99
 Homepage: https://github.com/jofpin/trape/blob/master/README.md
 Description: Trape is an OSINT analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time.
+
+Package: haxrat
+Architecture: all
+Version: 1.0-3
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 57168
+Depends: nodejs, apkmod
+Filename: dists/termuxblack/main/binary-all/haxrat_1.0-3_all.deb
+Size: 37288416
+MD5sum: fcf97afc6400ec40a66d214db216b1d4
+SHA1: 641e02d9e8a7aa00fc3519dfd4c275c2a815d9ed
+SHA256: 3e0fea52db266284f1971347922f6e179f284d481c76c683334c85219adc21bc
+SHA512: b9ea77d299965a45257074ceb365b669983e0b50a64121a7c0ffac1f2a5d44290c4dd959fd768a7f390ec12ae65d37db007b4186e8ee59a017d66143e08c967c
+Homepage: https://github.com/hax4us/haxRat.git
+Description: Remote Android Managment Suite
 
 Package: apkmod
 Architecture: all
