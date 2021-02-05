@@ -1,3 +1,18 @@
+Package: xerosploit
+Architecture: all
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 2260
+Depends: libpcap, ruby, hping3, libgmp, wireless-tools, python2, build-essential
+Filename: dists/termuxblack/main/binary-all/xerosploit_1.0_all.deb
+Size: 690682
+MD5sum: b54fee67e5d77d6ea7a68b4e37241486
+SHA1: faa61dfeadffc808b613141201cfb2dccaa3b238
+SHA256: 50fc395334515d0af03fc90ae106789888da5a3647fb7e8e5c0818a139254a78
+SHA512: 3e9df3c5e53ff8fe49e4e22973143d173c856ebf4d988e5e0707d646a3cd6731f5b56876c095244d8762b0aef15ab387e376a7adc52f27e741fdd7301a389c70
+Homepage: https://github.com/LionSec/xerosploit
+Description: Efficient and advanced man in the middle framework
+
 Package: haxrat
 Architecture: all
 Version: 1.0-1

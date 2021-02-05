@@ -1,3 +1,18 @@
+Package: dreel
+Architecture: arm
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 60
+Depends: libcurl, tidy
+Filename: dists/termuxblack/main/binary-arm/dreel_1.0_arm.deb
+Size: 8364
+MD5sum: 1642d75a76db1ec4c81c2e827ff26aa1
+SHA1: b4f0bf352f254705e823a7d41a2afd53759a3800
+SHA256: 7aeee62822f16077b7e6a52d0b85dc28a1d747612bd8638a2b68978669fb0fd7
+SHA512: cdf1bcb2c5e45b9026305d129d096c49abd0570af94a14f3efce6f92626b3c75e851e8b6be6184e1f9749cd93637944e2217940c7de9cff9893f9202586d7686
+Homepage: https://github.com/Hax4us/TermuxBlack/blob/master/README.md
+Description: Instagram reel downloader.
+
 Package: termux-elf-cleaner-5
 Architecture: arm
 Version: 5

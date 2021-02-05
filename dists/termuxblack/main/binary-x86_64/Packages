@@ -75,6 +75,21 @@ SHA512: 4034755e664332b5ae8ba2c4a9e6f9479bdd895356b8ccef1819587c92b1af931b2d424e
 Homepage: Not Available
 Description: A RAT binder
 
+Package: dreel
+Architecture: x86_64
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 60
+Depends: libcurl, tidy
+Filename: dists/termuxblack/main/binary-x86_64/dreel_1.0_x86_64.deb
+Size: 5894
+MD5sum: ebc6462a56c90462ddf6a3e6d7b0326e
+SHA1: 015b3f6361ca1578302abf661aff931ea3457483
+SHA256: 860a847ce5ae8abca8d27e9d627d06479e199a856a4d06e08e589997918d4be4
+SHA512: 69da9f02b1361b200348d0757acf81780c3b3ed38ec994ad490d62cac6263f877b5782d1a0b70df5546634096c3afbf7faf11554c65ec6ccae10b2ba9df91ab2
+Homepage: https://github.com/Hax4us/TermuxBlack/blob/master/README.md
+Description: Instagram reel downloader.
+
 Package: apkmod2
 Architecture: x86_64
 Version: 1.1

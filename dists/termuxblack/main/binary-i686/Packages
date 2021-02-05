@@ -104,6 +104,21 @@ SHA512: 6a116e8052e84f2f52e8650c1a26f72b9ac189ff5cb288351f68f5d8f2d27f2cfcbddcf8
 Homepage: http://python.org/
 Description: Python 2 programming language intended to enable clear programs
 
+Package: dreel
+Architecture: i686
+Version: 1.0
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 56
+Depends: libcurl, tidy
+Filename: dists/termuxblack/main/binary-i686/dreel_1.0_i686.deb
+Size: 5842
+MD5sum: 85202a7de5a3b6f51863417444b7c142
+SHA1: c435745b7183290a7235538d2f7f7c9b78191993
+SHA256: 60cec71c9426c1f233984b5a0a3c13a574b9030f3d19e899406dfabbfefc0722
+SHA512: 3a1557e6b1efa3ccbe93b5996c0df81cbf03a86b699ce1cb9cec612640b4acee9dc4fee52628379ffa828e7ed13d023e400fe4e034b5cea8650bc8d089f7eeef
+Homepage: https://github.com/Hax4us/TermuxBlack/blob/master/README.md
+Description: Instagram reel downloader.
+
 Package: apkmod2
 Architecture: i686
 Version: 1.0
