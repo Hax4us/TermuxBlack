@@ -13,6 +13,24 @@ SHA512: 880dc9c62a8ec3a7528082dc80a058f330f63effad36193cf6a2bc5ee8f08a786838553e
 Homepage: Not Available
 Description: A RAT binder
 
+Package: ruby2
+Architecture: aarch64
+Version: 2.7.2-3
+Maintainer: @termux
+Installed-Size: 23076
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: dists/termuxblack/main/binary-aarch64/ruby2_2.7.2-3_aarch64.deb
+Size: 4086262
+MD5sum: 9456ad4170edf6dad8d4785c258d2acf
+SHA1: 16096431b01d1af7dd05f57e3cc1f97c940703d4
+SHA256: 1a86dddbec2eb8eb2f4598bbfdedc0c328f589a7f53b8947893328bae0a4bb19
+SHA512: 169a9592e51f44cd33355ace6056638d38abd4545834be6eb1710b1fa83f9c565781490dd09b5590f38fad915d760a394a42c7b93f65c2338cb7232448640f1c
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity
+
 Package: dreel
 Architecture: aarch64
 Version: 1.0

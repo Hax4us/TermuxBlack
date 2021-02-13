@@ -134,3 +134,21 @@ SHA512: 19cc376bfe5051dea0ba01d72d0f62b493a2f90254e122f05f013913a9b6ef9cbd0074c8
 Homepage: https://github.com/droberson/ssh-honeypot#quickstart
 Description: Fake sshd that logs ip addresses, usernames, and passwords.
 
+Package: ruby2
+Architecture: arm
+Version: 2.7.2-3
+Maintainer: @termux
+Installed-Size: 21888
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: dists/termuxblack/main/binary-arm/ruby2_2.7.2-3_arm.deb
+Size: 4170100
+MD5sum: 670b8cae316367817a3b26432b9c9354
+SHA1: 7bc214cd43bc9cd3d9bb2f2c95139644400f2c54
+SHA256: 07d3029fa515fa7f91e0c52d83b38589a0c69be49af0019270f740eb669f1da3
+SHA512: d68200a6bfc2401151242dc2f0c5dde46158a771665b878b2815983282fbbd292c51c7a3a5744366459dceebf8d7439dc544771419e60587623cc0dac80ad093
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity
+

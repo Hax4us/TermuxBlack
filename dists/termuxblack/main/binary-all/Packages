@@ -28,6 +28,21 @@ SHA512: c645e50562a7afc5c7e0c2b456dec60cba2b36d36a92836e2e831a3c04fdb8281f79d051
 Homepage: https://github.com/hax4us/haxRat.git
 Description: Remote Android Managment Suite
 
+Package: ruby2-ri
+Architecture: all
+Version: 2.7.2-3
+Maintainer: @termux
+Installed-Size: 76844
+Depends: ruby2 (= 2.7.2-3)
+Filename: dists/termuxblack/main/binary-all/ruby2-ri_2.7.2-3_all.deb
+Size: 1809932
+MD5sum: 87c8d2642b0813d18d9a84472f76b634
+SHA1: ded7c45d9232eb70924730f491920c6c2746dbf2
+SHA256: 28e01afc646fe6b2f7102fe742eb4a36977dcf00484913122795da3cc8e44db8
+SHA512: 6d2947516a7f4a77e9de5b81fa7dd2c8839c3ea37561fb16ea3200ad7525cbe4dd74fe084b825a11b96beec96baa6240df398fac5050f783ad85ea50ee5aaee8
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
+
 Package: lemon
 Architecture: all
 Version: 2.1-2

@@ -1,3 +1,21 @@
+Package: ruby2
+Architecture: i686
+Version: 2.7.2-3
+Maintainer: @termux
+Installed-Size: 22996
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: dists/termuxblack/main/binary-i686/ruby2_2.7.2-3_i686.deb
+Size: 4274028
+MD5sum: 761e85e581298ce9608f29e20146d34a
+SHA1: e7d8cd89a4f91a2dc8e07899c76857f9cafe80f9
+SHA256: db298f02ad7ea1d2865ed67089c2f21a35dff617628a25e087f97640818f112d
+SHA512: 69b0fa5801057026dc8eb179b23bf3e94f3144e4c2ffe4009c33b901cffa335b52d3ec0d882d5fb82665ff7cd3248c72e6de3d5f4d536c15c534aedc49ec4701
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity
+
 Package: pdfcrack
 Architecture: i686
 Version: 0.19
