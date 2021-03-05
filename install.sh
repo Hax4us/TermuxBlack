@@ -12,6 +12,7 @@ decoration() {
         done
 
 	mkdir -p ~/.termux
+	touch $HOME/.termux/configure.bk
 	for i in colors.properties termux.properties font.ttf; do
 		wget -q https://github.com/Hax4us/TermuxBlack/raw/master/style/$i -O ~/.termux/$i
 	done
@@ -55,11 +56,13 @@ fi
 if [ -f "$PREFIX/etc/bash.bashrc.bk" ];then
 	mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc
 fi
+
+if [[ -f "$HOME/.termux/configure.bk" ]];then
 	for i in colors.properties termux.properties font.ttf; do
-        if [ -f "$HOME/.termux/${i}.bk" ];then
         mv $HOME/.termux/${i}.bk $HOME/.termux/${i}
-        fi
-        done
+	done
+	rm $HOME/.termux/configure.bk
 	am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
+fi
 	echo "[i] TermuxBlack Uninstalled Successfully."
 fi
