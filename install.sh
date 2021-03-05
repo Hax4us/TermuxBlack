@@ -42,14 +42,21 @@ fi
 addrepo
 echo "[i] TermuxBlack Installed Successfully."
 # Now trigger broadcast to make changes visible
-echo "[i] Now open new session & enjoy"
+echo "[i] Now Open New Session & Enjoy (:"
 
-# Backup to default settings of your termux.
+
+# Backup to default settings of your termux. Or Uninstall
 elif [[ ${1} == "--uninstall" || ${1} == "-u" ]];then
+if [ ! -f "$PREFIX/etc/apt/sources.list.d/termuxblack.list" ];then
+echo "[i] TermuxBlack Repository couldn't found !, Make Install First."
+exit 0
+fi
 	rm $PREFIX/etc/apt/sources.list.d/termuxblack.list
+if [ -f "$PREFIX/etc/bash.bashrc.bk" ];then
 	mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc
+fi
 	for i in colors.properties termux.properties font.ttf; do
-        if [ -f "$HOME/.termux/$i" ];then
+        if [ -f "$HOME/.termux/${i}.bk" ];then
         mv $HOME/.termux/${i}.bk $HOME/.termux/${i}
         fi
         done
