@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # Create separate directory for my repository
 if [[ ${1} == "--install" || ${1} == "-i" ]];then
@@ -44,7 +44,7 @@ addrepo
 echo "[i] TermuxBlack Installed Successfully."
 # Now trigger broadcast to make changes visible
 echo "[i] Now Open New Session & Enjoy (:"
-
+exit 0
 
 # Backup to default settings of your termux. Or Uninstall
 elif [[ ${1} == "--uninstall" || ${1} == "-u" ]];then
@@ -65,4 +65,22 @@ if [[ -f "$HOME/.termux/configure.bk" ]];then
 	am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null
 fi
 	echo "[i] TermuxBlack Uninstalled Successfully."
+	exit 0
+fi
+
+# Help Menu of termux-black
+if [[ ${#@} -gt "0" ]];then
+echo -e "
+command '$@' is not found
+
+command for usage :
+ -i : for install termux-black
+ -u : for uninstall termux-black
+"
+else
+echo -e "
+command for usage :
+ -i : for install termux-black
+ -u : for uninstall termux-black
+"
 fi
