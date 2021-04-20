@@ -2,7 +2,7 @@
 
 # Create separate directory for my repository
 if [[ ${1} == "--install" || ${1} == "-i" ]];then
-command -v gpg > /dev/null 2>&1 || { echo -e "\nInstalling dependencies..." ;apt update; apt install gnupg -yq --silent;}
+command -v gpg > /dev/null 2>&1 || { echo -e "\nInstalling dependencies..." ;apt update; apt install gnupg -yq --silent; apt upgrade -y;}
 decoration() {
 
 	for i in colors.properties termux.properties font.ttf; do
@@ -35,7 +35,7 @@ addrepo() {
 }
 
 echo "[i] Installing TermuXBlacK ..."
-printf "Are you want TermuxBlack Custom PS1? [Y/n] "
+printf "[?] Do you want TermuxBlack Custom PS1? [Y/n] "
 read ask
 if [[ "$ask" == [Y/y] ]];then
 decoration
@@ -74,13 +74,13 @@ echo -e "
 command '$@' is not found
 
 command for usage :
- -i : for install termux-black
- -u : for uninstall termux-black
+bash $(basename $0) -i : for install termux-black
+bash $(basename $0) -u : for uninstall termux-black
 "
 else
 echo -e "
 command for usage :
- -i : for install termux-black
- -u : for uninstall termux-black
+bash $(basename $0) -i : for install termux-black
+bash $(basename $0) -u : for uninstall termux-black
 "
 fi
