@@ -207,6 +207,21 @@ SHA512: 1858c601c0bf7b298f476f73480887adcdb1643e8235197526ac9c045625f7a14a25b55c
 Homepage: https://github.com/jofpin/trape/blob/master/README.md
 Description: Trape is an OSINT analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time.
 
+Package: apkmod
+Architecture: all
+Version: 3.1
+Maintainer: Lokesh Pandey @hax4us
+Installed-Size: 4
+Depends: aapt, apksigner, wget, bc, proot, bsdtar, busybox, sed
+Filename: dists/termuxblack/main/binary-all/apkmod_3.1_all.deb
+Size: 910
+MD5sum: 19f712fab67c3498c7a4fb002f0236fd
+SHA1: 0e74bdbbcabfff8b701b847b1930c89e6c104f76
+SHA256: d5854213a1ee269cd3e9a2df927a60629afbf95ce64de434236025672aada692
+SHA512: 840df3f79096202bd399acb1cae2c6c02d5a9c113c0d8781d0f763bccf2df68699d54a7f03ec0e4cd52bda66aa9a67edbd05ab79d3653a6de17cbc7550e8986a
+Homepage: https://github.com/Hax4Us/Apkmod
+Description: Apkmod can decompile, recompile, sign APK, and bind the payload with any legit APP
+
 Package: lemon
 Architecture: all
 Version: 2.0
